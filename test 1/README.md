@@ -3,7 +3,7 @@
 ## Часть 1.
 Необходимо на создать страницу отображающую список компонентов. Каждый компонентов состоит из трех частей: заголовок, список, текстовое описание.
 
-![old][https://github.com/GPB-COS/test-work-react/blob/master/test%201/pic/Blocks.PNG]
+![old](https://github.com/GPB-COS/test-work-react/blob/master/test%201/pic/Blocks.PNG)
 
 Данные передаются с сервера в виде JSON-структуры:
 
@@ -26,4 +26,4 @@
 ## Часть 2
 Есть интерфейс старой системы необходимо его улучшить и сделать максимально удобным и понятным пользователю. Достаточно будет предоставить графический набросок Вашего видения данной оптимизации. В полете фантазии также не ограничиваем.
 
-![old][https://raw.githubusercontent.com/GPB-COS/test-work-react/master/test%201/pic/old%20interface.PNG]
+![old](https://raw.githubusercontent.com/GPB-COS/test-work-react/master/test%201/pic/old%20interface.PNG)
