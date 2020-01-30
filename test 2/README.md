@@ -12,4 +12,4 @@
 
 ![reload](https://github.com/GPB-COS/test-work-react/blob/master/test%202/pic/D2446DA8-9A38-46DC-8B11-58846898BCA2.png)
 
-Готовый бэкенд расположен в каталоге backend.
+Готовый бэкенд расположен в каталоге [backend](https://github.com/GPB-COS/test-work-react/tree/master/test%202/backend).
