@@ -1,1 +1,1 @@
-# test-work-react
+# Тестовые задания по React
