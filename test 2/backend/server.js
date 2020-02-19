@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 var uuidv1 = require('uuid/v1');
 var app = express();
 
-var port = process.env.npm_package_config_port || 7777;
+var port = process.env.npm_package_config_port || 7070;
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*"); 
