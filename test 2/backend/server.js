@@ -1,9 +1,9 @@
-var express = require('express');
-var bodyParser = require("body-parser");
-var uuidv1 = require('uuid/v1');
-var app = express();
+const express = require('express');
+const bodyParser = require("body-parser");
+const uuidv1 = require('uuid/v1');
+const app = express();
 
-var port = process.env.npm_package_config_port || 7070;
+const port = process.env.npm_package_config_port || 7070;
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*"); 
@@ -31,8 +31,7 @@ let services = [
 ];
 
 function getRandomInt(min, max) {
-  let result =  Math.floor(Math.random() * (max - min)) + min;
-  return result;
+  return Math.floor(Math.random() * (max - min)) + min;
 }
 
 function theErrorIsComing(res){
@@ -42,9 +41,9 @@ function theErrorIsComing(res){
     res.statusCode = 500;
     res.end()
     return true;
+  } else {
+    return false;
   }
-  return false;
-
 }
 
 async function theDelayIsComing(process,delay){
@@ -52,7 +51,7 @@ async function theDelayIsComing(process,delay){
   let isDelayed = false;
   if (!(getRandomInt(0, 9) % getRandomInt(0, 9)) || delay ){
     await new Promise(resolve => {
-      const timeout = delay || getRandomInt(1, 1 * 1000); 
+      const timeout = delay || getRandomInt(1, 1000);
       console.log(`theDelayIsComing ${timeout}`);
       setTimeout(() => {
           resolve();
