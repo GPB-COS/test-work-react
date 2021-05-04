@@ -6,10 +6,10 @@
 2. При переходе по ссылке (/:id/details) - загружаются детали услуги методом GET на http://locahost:7070/api/services/:id
 3. При загрузке списка услуг и детальной информации об услуге должен отображаться индикатор загрузки:
 
-![loader](https://github.com/MeowRei/test-work-react/blob/master/test%202/pic/B13CC99F-A588-40A3-BAB3-EDF25B140F3D.png)
+![loader](https://github.com/GPB-COS/test-work-react/blob/master/test%202/pic/B13CC99F-A588-40A3-BAB3-EDF25B140F3D.png)
 
 При ошибке - показывать сообщение об ошибке с кнопкой "Повторить запрос", при нажатии на которую осуществляется попытка снова выполнить запрос (с индикатором загрузки и т.д.):
 
-![reload](https://github.com/MeowRei/test-work-react/blob/master/test%202/pic/D2446DA8-9A38-46DC-8B11-58846898BCA2.png)
+![reload](https://github.com/GPB-COS/test-work-react/blob/master/test%202/pic/D2446DA8-9A38-46DC-8B11-58846898BCA2.png)
 
-Готовый бэкенд расположен в каталоге [backend](https://github.com/MeowRei/test-work-react/tree/master/test%202/backend).
+Готовый бэкенд расположен в каталоге [backend](https://github.com/GPB-COS/test-work-react/tree/master/test%202/backend).
