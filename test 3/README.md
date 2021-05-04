@@ -7,7 +7,7 @@
 1. Пользователь имеет возможность создавать, редактировать, удалять мероприятия (в разных вкладках посредством роутинга);
 2. Поля класса "Мероприятие": название, время начала, время окончания, за сколько напоминать о мероприятии;
 ![event](https://github.com/MeowRei/test-work-react/blob/master/test%203/pic/8DC8ACE1-F479-4DF1-BE09-1A4848B01908.png)
-![event-noty](https://github.com/MeowRei/test-work-react/blob/master/test%203/pic/79FDBA3D-C51B-42A3-9D5A-9F2D114ACE39.png)
+![event-noty](https://github.com/MeowRei/test-work-react/blob/master/test%203/pic/79FDBA3D-C51B-42A3-9D5A-9F2D114ACE39.PNG)
 3. Уведомлять об успешности события; Уведомлять о начал мероприятия;
 ![success](https://github.com/MeowRei/test-work-react/blob/master/test%203/pic/A5C4EEE2-2714-49E8-AB9E-A6060DEEC49F.PNG)
 4. Просматривать мероприятия на день;
