@@ -1,0 +1,14 @@
+.container {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error {
+  margin: 20px;
+}
+
+.errorMessage {
+  color: red;
+}
