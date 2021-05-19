@@ -1,0 +1,30 @@
+//$container: #f4f4f542;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 5%;
+  min-width: 20%;
+  max-width: 70%;
+  min-height: 100%;
+  text-align: left;
+  //background-color: $container;
+
+  .cardsList {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.568);
+  }
+}
