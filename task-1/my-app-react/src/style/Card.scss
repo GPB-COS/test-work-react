@@ -1,0 +1,76 @@
+$midnight: #667a81;
+$clouds: #ecf0f1;
+
+input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.card {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+    &-label {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+        background: $midnight;
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover {
+            background: darken($midnight, 8%);
+        }
+
+        &::after {
+            content: "\276F";
+            width: 1em;
+            height: 1em;
+            text-align: center;            
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            transition: all .5s;
+        }
+    }
+
+    &-content {        
+        max-height: 0;
+        padding: 0 1em;
+        font-size: 1em;
+        color: $midnight;
+        background: white;        
+        -webkit-transition: all 0.15s;
+        -moz-transition: all 0.15s;
+        -o-transition: all 0.15s;
+        -ms-transition: all 0.15s;
+        transition: all .15s;
+    }
+}
+
+input:checked {
+    +.card-label {
+        background: darken($midnight, 10%);
+
+        &::after {
+            transform: rotate(90deg);
+        }
+    }
+
+    ~.card-content {
+        max-height: 100vh;
+        padding: 1em;
+    }
+}
+
+ul {
+    list-style-position: inside;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}

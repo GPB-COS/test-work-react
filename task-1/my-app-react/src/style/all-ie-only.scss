@@ -1,0 +1,26 @@
+$midnight: #667a81;
+
+.card-ie {
+    .card-label-ie {
+        display: block !important;
+        //position: relative !important;
+        padding: .5em .5em .5em .7em !important;
+        min-height: 20px !important;
+        line-height: 33px !important;
+        text-align: center;
+
+        &::after {
+            content: "" !important;
+        }
+    }
+
+    .card-content-ie {
+        overflow: hidden;
+    }
+
+    input:checked {
+        .card-content-ie {
+            max-height: 100%;
+        }
+    }
+}

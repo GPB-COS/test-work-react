@@ -1,0 +1,25 @@
+.daysList {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+    width: 80%;
+    justify-content: flex-start;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.dayItem {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.MuiListItem-root {
+    padding: 2% !important;
+}
+
+.dayListContainer {
+    justify-content: center;
+    display: flex;
+}

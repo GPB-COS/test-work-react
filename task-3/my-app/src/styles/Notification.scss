@@ -1,0 +1,22 @@
+.notification, .notificationTime {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.849);
+    font-size: 18px;
+    padding: 1%;
+    border-radius: 15px;
+    top: 2%;
+    right: 15%;
+    z-index: 2;
+}
+
+.notificationTime {
+    font-size: 16px;
+    top: 2%;
+    right: 9%;
+    border: 1px #8080808a solid;
+    z-index: 2;
+
+    div {
+        text-align: end;
+    }
+}

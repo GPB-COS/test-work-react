@@ -1,0 +1,21 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow:  hidden;
+
+    .containerMain {
+        min-height: 970px;
+        width: 65%;
+        margin: 0 auto;
+        color: black;
+        padding: 1%;
+        background-color: #fdf1ec45; 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

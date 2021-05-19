@@ -1,0 +1,16 @@
+.containerNav { 
+    width: 90%; 
+    margin: 0 auto; 
+    
+    .nav {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        li {
+            list-style-type: none;
+        }
+    }
+}

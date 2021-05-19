@@ -1,0 +1,28 @@
+.error, .loading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.errorBtn {
+    background-color: #0d9b9b !important;
+    min-width: 200px;
+    max-width: 220px;
+    padding: 10px 20px;
+
+    span {
+        font-size: 16px;
+    }
+
+    &:hover {
+        background-color: #066666 !important;
+    }
+}
+
+.MuiButton-containedPrimary {
+    border-radius: 150px !important;
+}
+        

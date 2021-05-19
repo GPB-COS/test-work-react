@@ -1,0 +1,17 @@
+.eventField {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 17px;
+    padding: 2% 4%;
+    width: 60%;
+    margin: 2% auto;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 100px;
+}
+
+.btnsField {
+    display: flex;
+    flex-direction: row;
+}

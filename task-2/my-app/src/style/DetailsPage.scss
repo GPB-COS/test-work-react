@@ -1,0 +1,18 @@
+.containerDetail {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;    
+
+    .detail_item{
+        font-size: 14px;
+        text-align: center;
+        max-width: 70%;
+        margin: auto 0;
+
+        .title {
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.eventsOfDayContainer {
+    margin: 0 5%;
+
+    h2 {
+        margin-top: 0;
+    }
+
+    .titleField {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 0 5% 0;
+    }
+}
+
+.eventsPageH2 {
+    h2 {
+        text-align: center;
+        margin-bottom: 5%
+    }
+}
