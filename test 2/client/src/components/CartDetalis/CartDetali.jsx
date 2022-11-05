@@ -2,17 +2,16 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Detalist from './Detalist';
 
-export default function CartDetali() {
+export default function CartDetali({ text }) {
   const { id } = useParams();
   const [cart, setCart] = useState([]);
 
   useEffect(() => {
-    fetch(`http://locahost:3002/api/services/${id}`)
-      .then((res) => res.json())
-      .then((data) => setCart(data));
+    const test = text.filter((el) => el.id === id);
+    setCart(test);
   }, []);
+  console.log('CartDetali--->>', cart);
 
-  console.log('CartDetali--->>', id);
   return (
     <div>
       {cart?.map((item) => (

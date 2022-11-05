@@ -5,10 +5,10 @@ import { useNavigate, useParams } from 'react-router-dom';
 export default function OneCart({ item }) {
   const { id } = useParams();
   const navigate = useNavigate();
+
   const handler = (e) => {
     e.preventDefault();
     navigate(`/${item.id}`);
-    console.log('item.id', item.id);
   };
   return (
     <div
