@@ -2,8 +2,9 @@ var express = require('express');
 var bodyParser = require("body-parser");
 var uuidv1 = require('uuid/v1');
 var app = express();
+const PORT = 3002;
 
-var port = process.env.npm_package_config_port || 7070;
+// var port = process.env.npm_package_config_port || PORT;
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*"); 
@@ -134,6 +135,6 @@ app.delete('/api/services/:serviceId', function (req,res) {
 });
 
 
-app.listen(port, function () {
-  console.log(`Notes server running on port:${port}`);
+app.listen(PORT, function () {
+  console.log(`Notes server running on port:${PORT}`);
 });
