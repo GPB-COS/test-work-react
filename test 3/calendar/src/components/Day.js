@@ -38,7 +38,7 @@ export default function Day({ day, rowIdx }) {
   }, []);
 
   useEffect(() => {
-    const eventNotifTime = event.day - event.reminderTime * 60 * 1000;
+    const eventNotifTime = event?.day - event?.reminderTime * 60 * 1000;
     const delayForTimeout = eventNotifTime - todayDateAndTime;
     if (delayForTimeout) {
       if (delayForTimeout < 0) {
