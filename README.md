@@ -1,3 +1,6 @@
+I had to make the third assignment. Which was a calendar with reminders.
+
+
 # Тестовые задания по React
 
 Каждое задание оценивается звездочкой.
